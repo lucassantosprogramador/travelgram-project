@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+
+}
+
+.bg-color-b2{
+    background-color: var(--b2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-block: 8px;
+    gap: 24px;
+}
+
+nav ul li:last-child {
+    width: 40px;
+    height: 40px;
+    background: var(--bd);
+    border-radius: 50%;
+}
+
