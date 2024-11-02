@@ -50,3 +50,9 @@ a:hover {
     box-sizing: border-box;
 }
 
+
+@media(width <= 23.4375rem) {
+    .desktop-only {
+        display: none;
+    }
+}

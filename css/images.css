@@ -11,3 +11,11 @@
     width: 286px;
     height: 286px;
 }
+
+@media(width <= 23.4375rem) {
+    #images {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}

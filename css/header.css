@@ -14,8 +14,11 @@ header .container {
 
 #profile {
     display: flex;
-    align-items: center;
     gap: 32px;
+
+    & img {
+        border-radius: 50%;
+    }
 }
 
 #profile > div {
@@ -34,4 +37,27 @@ header .container {
 
 #info {
     list-style: none;
+    display: grid;
+    gap: 1rem;
+
+    & li{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+
+@media(width <= 23.4375rem) {
+    .about, #profile {
+        flex-direction: column;
+    }
+
+    #info {
+        margin-top: 2rem;
+    }
+
+    #profile img {
+        width: 10rem;
+    }
+    
 }
